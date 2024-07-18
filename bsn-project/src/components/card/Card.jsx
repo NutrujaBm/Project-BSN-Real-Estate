@@ -4,9 +4,9 @@ import {Link} from "react-router-dom"
 function Card({item}) {
   return (
     <div className='card'>
-      {/* <Link to={`/${item.id}`} className="mapContainer">
+      <Link to={`/${item.id}`} className="mapContainer">
         <img src={item.img} alt="" />
-      </Link> */}
+      </Link>
       <div className="textContainer"></div>
     </div>
   )
