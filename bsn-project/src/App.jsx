@@ -10,9 +10,9 @@ function App() {
       <div className="navbar">
         <Navbar />
       </div>
-      {/* <div className="home">
+      <div className="home">
         <HomePage/>
-      </div> */}
+      </div>
       <div className="list">
         <ListPage/>
       </div>
