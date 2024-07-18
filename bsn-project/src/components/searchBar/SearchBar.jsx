@@ -7,12 +7,12 @@ function SearchBar() {
         <div className="searchBar">
             <div className="type">
                 <form className="flex-form">
-                    <select name="province" defaultValue="">
+                    <select name="province">
                         <option value="">เลือกจังหวัด</option>
                         <option value="bangkok">กรุงเทพมหานคร</option>
                         <option value="pathum-thani">ปทุมธานี</option>
                     </select>
-                    <select name="type-re" defaultValue="">
+                    <select name="type">
                         <option value="">เลือกประเภท</option>
                         <option value="condo">คอนโด</option>
                         <option value="apartment">อพาร์ทเมนต์</option>

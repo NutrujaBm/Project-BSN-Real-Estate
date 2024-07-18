@@ -1,9 +1,15 @@
 import './card.scss'
+import {Link} from "react-router-dom"
 
-function card() {
+function Card({item}) {
   return (
-    <div className='card'>Card</div>
+    <div className='card'>
+      {/* <Link to={`/${item.id}`} className="mapContainer">
+        <img src={item.img} alt="" />
+      </Link> */}
+      <div className="textContainer"></div>
+    </div>
   )
 }
 
-export default card
+export default Card;

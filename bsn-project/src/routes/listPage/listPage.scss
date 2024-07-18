@@ -1,18 +1,39 @@
+@import "../../responsive.scss";
+
 .listPage {
     display: flex;
+    flex-direction: column;
     height: 100%;
-  
-    .listContainer {
-      flex: 3;
+
+    .ContainerSearch {
+        align-items: center;
+        height: 100px;
+        padding: 2px; 
+        margin-top: -50px;
+        margin-bottom: 100px;
     }
 
-    .wrapper {
-        padding-right: 50px;
+    .listContainer {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .wrapper {
+            flex: 1;
+            padding-right: 50px;
+            margin-top: 40px; 
+            display: flex; 
+            flex-direction: column;
+            gap: 50px;
+            overflow: scroll;
+        }
+
+        .mapContainer {
+            flex: 1;
+            margin-top: 40px;
+            background-color: #4e1f12;
+            padding: 20px; 
+        }
     }
-    
-    .mapContainer {
-      flex: 2;
-      background-color: #fcf5f3;
-    }
-  }
-  
+}
